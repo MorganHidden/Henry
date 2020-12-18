@@ -1,6 +1,29 @@
-Homework: Javascript II
+Homework de Javascript II
 
-1. "for"
-2. "&&"
-3. "
-4. "!"
+* for : Se utiliza para crear un bucle. Consiste en tres expresiones dentro de un parentesis y separadas entre si por un punto y coma. Luego entre corchetes va la sentencia, que es el código que se va a ejecutar si la condición dentro del parentesis es correctas.
+
+	> for (expresión inicial; condición; expresión final) {
+		"aquí va la sentencia"
+	}
+
+	-> Expresión inicial: Aquí se declará generalmente una variable, que lo podremos usar como contador.
+	-> Condición: Esta condición evalúa si la expresión es verdadera, si es así se ejecuta la sentencia ubicada dentro de los corchetes. Si es falsa automáticamente se omite la sentencia y sigue el codigo fuera de la expresion for.  Esta expresión opcionalmente puede no estar, y la condición siempre será verdadera.
+	-> Expresión final: Esta expresión se utiliza para incrementar o actualizar la expresión inicial.
+	-> Sentencia: Es aquél código que se ejecuta mientras la condición sea verdadera. De lo contrario no se ejecutará y seguirá con el código fuera del bucle.
+
+	* Como por ejemplo, crearemos la expresión inicial con una variable i= 0, luego le sigue la condición, en este caso será verdadera ya que 0 es menor que 9. La expresión final i++ (que quiere decir i = i + 1), sumará a la variable i = 1. Seguirá ejecutandose hasta que la variable i no sea menor que 9. Dentro de la sentencia, n sumará 1 cada vez que la condición sea verdadera y se almacenará en la función. Cuando la condición sea falsa, el bucle dejará de ejecutarse. 
+
+	> function mifuncion(n) { 
+		for (var i = 0; i < 9; i++) {
+			n = n + 1;
+			mifuncion(n);
+		}
+	}
+
+Operadores lógicos:
+
+	* " && " : Significa 'and...' (y...). Cuando evaluaremos dos expresiones, si AMBAS son true (verdaderas) devolverá a la consola true. Si uno o ambas son false, devolverá automáticamente false. Este operador es EXTRICTO en la comparación.
+
+	* " || " : Significa 'or...' (o...). Cuando evaluaremos dos expresiones, si una de ellas es verdadera o ambas son verdaderas, devolverá true. De lo contrario si ambas o una de ellas son false, devolverá false. Este operador es mas permisivo que el operador &&.
+
+	* " ! " : Significa 'NOT' (no). Cuando evaluaremos dos expresiones, devolverá el valor booleano OPUESTO. Es decir, si tenemos una expresión true, con este operador cambiaremos a false.
