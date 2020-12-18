@@ -17,6 +17,6 @@ Introducción a Javascript
 
 	* "Return" lo útilizaremos para devolver datos, esta es la única forma de que los datos "escapan" de la función. Entonces si se invoca return dentro de una función, devolverá el dato solicitado pero la función parará su proceso.
 
-4. La declaración "if" se utiliza para comparar argumentos. Dentro de esa comparación, los datos que analizaremos deberán tener un formato de "verdadero" o "falso". Esta declaración se utiliza conjuntamente con los argumentos de operación, que pueden ser la suma, resta, división y multiplicación. Además de los operadores lógicos, como son && (y), || (o) y NOT (no).
+4. La declaración "if" se utiliza para comparar argumentos. Dentro de esa comparación, los datos que analizaremos deberán tener un formato de "verdadero" o "falso". Esta declaración se utiliza conjuntamente con los argumentos de operación, que pueden ser la suma, resta, división y multiplicación. Además de los operadores lógicos, como son && (y), || (o) y ! (NOT = no).
 
 5. Un valor booleano es un estado donde tiene dos instancias, puede ser "abierto" o "cerrado", "on" o "off", "apagado" o "prendido", "verdadero" o "falso". Para entenderlo mejor, comparemoslo con un interruptor de luz. En el caso de Javascript, y la programación en general, los dos estados que manejaremos son "True" (verdadero) y "False" (falso).
