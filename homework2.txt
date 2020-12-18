@@ -1,0 +1,6 @@
+Homework: Javascript II
+
+1. "for"
+2. "&&"
+3. "
+4. "!"
