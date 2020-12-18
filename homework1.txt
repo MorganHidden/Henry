@@ -1,0 +1,22 @@
+Introduccion a Javascript
+
+1. Variables: Es una pequeña porción de datos, donde se almacena en la memoria para luego ser utilizada en otras funciones. Pueden ser cualquier tipo de datos, como por ejemplo números, letras. Como por ejemplo:
+
+	> var nuevaVariable = 1;
+
+2. Strings: Es simplemente texto, que se encuentra dentro de comillas tanto simples como dobles. Como por ejemplo:
+
+	> var nuevaString = "Soy una String con comillas dobles"
+	> var nuevastring = 'Soy una string con comillas simples'
+
+3. Funciones: Es un proceso por el cuál se un calculo en base a, como pueden ser variables o strings, para obtener un resultado. La función comienza declarando "function" al inicio para dar a entender a JavaScript que es una función, luego va seguido del nombre de la función. Luego del nombre, entre parentesis, pondremos los "Argumentos", que son variables que utilizaremos para calcular dentro de la función. Por último, y seguido de los corchetes, agregaremos las llaves, donde agregaremos nuestro código a ser calculado. 
+
+	> function soyUnaFuncion(arg1, arg2) {
+		return "Aquí va nuestro código";
+	}
+
+	* "Return" lo útilizaremos para devolver datos, esta es la única forma de que los datos "escapan" de la función. Entonces si se invoca return dentro de una función, devolverá el dato solicitado pero la función parará su proceso.
+
+4. La declaración "if" se utiliza para comparar datos. Dentro de esa comparación, los datos que analizaremos deberán tener un formato de "verdadero" o "falso". Esta declaración se utiliza conjuntamente con los argumentos de operación, que pueden ser la suma, resta, división y multiplicación. Además de los operadores lógicos, como son && (y), || (o) y NOT (no).
+
+5. Un valor booleano es un estado donde tiene dos instancias, puede ser "abierto" o "cerrado", "on" o "off", "apagado" o "prendido", "verdadero" o "falso". Para entenderlo mejor, comparemoslo con un interruptor de luz. En el caso de Javascript, y la programación en general, los dos estados que manejaremos son "True" (verdadero) y "False" (falso).
